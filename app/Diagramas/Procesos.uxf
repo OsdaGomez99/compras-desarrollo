@@ -1,0 +1,62 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes
+</help_text><element><id>UMLClass</id><coordinates><x>350</x><y>350</y><w>140</w><h>60</h></coordinates><panel_attributes>
+Cotización
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>650</x><y>350</y><w>170</w><h>60</h></coordinates><panel_attributes>
+Orden de Compra
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>100</x><y>350</y><w>130</w><h>60</h></coordinates><panel_attributes>
+Requisición
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>240</y><w>40</w><h>130</h></coordinates><panel_attributes>lt=&lt;-
+1</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>400</y><w>70</w><h>170</h></coordinates><panel_attributes>
+lt=&lt;-
+4.1</panel_attributes><additional_attributes>10;10;10;150;50;150</additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>400</y><w>130</w><h>170</h></coordinates><panel_attributes>lt=&lt;-
+4.2</panel_attributes><additional_attributes>90;10;90;150;10;150</additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>530</y><w>110</w><h>40</h></coordinates><panel_attributes>SI</panel_attributes><additional_attributes>10;20;90;20</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>530</y><w>70</w><h>40</h></coordinates><panel_attributes>NO</panel_attributes><additional_attributes>50;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>220</y><w>140</w><h>150</h></coordinates><panel_attributes>3
+lt=&lt;-
+</panel_attributes><additional_attributes>10;130;10;20;120;20</additional_attributes></element><element><id>Relation</id><coordinates><x>390</x><y>200</y><w>180</w><h>170</h></coordinates><panel_attributes>lt=&lt;-
+
+
+
+
+2</panel_attributes><additional_attributes>160;20;10;20;10;150</additional_attributes></element><element><id>Relation</id><coordinates><x>660</x><y>240</y><w>40</w><h>130</h></coordinates><panel_attributes>lt=&lt;-
+
+
+
+
+6</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>710</x><y>210</y><w>230</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+9</panel_attributes><additional_attributes>210;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>810</x><y>360</y><w>130</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+8</panel_attributes><additional_attributes>110;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>550</x><y>200</y><w>170</w><h>50</h></coordinates><panel_attributes>
+bg=green
+Proveedor</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>80</x><y>190</y><w>170</w><h>60</h></coordinates><panel_attributes>bg=green
+
+Unidad
+Solicitante</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>520</y><w>150</w><h>50</h></coordinates><panel_attributes>bg=green
+
+Presupuesto</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>920</x><y>350</y><w>170</w><h>50</h></coordinates><panel_attributes>bg=green
+
+Finanzas</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>480</x><y>360</y><w>100</w><h>180</h></coordinates><panel_attributes>4
+
+
+
+lt=&lt;-</panel_attributes><additional_attributes>70;160;70;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>580</x><y>360</y><w>90</w><h>180</h></coordinates><panel_attributes>lt=&lt;-
+
+5</panel_attributes><additional_attributes>10;160;10;10;70;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>70</x><y>550</y><w>330</w><h>200</h></coordinates><panel_attributes>LEYENDA
+--
+1. Emitir Requisición
+2. Solicitar Oferta a Proveedor(es)
+3. Recibir Cotización del Proveedor
+4. Solicitar disponibilidad presupuestaria
+	4.1. Cotización en espera
+	4.2. Elaborar Orden de Compra
+5. Solicitud de bloqueo de monto de Orden de Compra
+6. Solicitud de mercancía
+7. Recepción de Factura
+8. Remitir Orden de Compra para su pago
+9. Entrega de mercancía o servicio.</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>360</y><w>150</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>130;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>700</x><y>240</y><w>40</w><h>130</h></coordinates><panel_attributes>lt=&lt;-
+7</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>60</x><y>290</y><w>790</w><h>180</h></coordinates><panel_attributes>Compras
+lt=.
+halign=left
+bg=yellow
+transparency=80</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>80</x><y>160</y><w>170</w><h>30</h></coordinates><panel_attributes>SISTEMA ADMINISTRATIVO
+bg=#009900</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>520</x><y>70</y><w>220</w><h>30</h></coordinates><panel_attributes>          DIAGRAMA DE PROCESOS
+bg=cyan</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>920</x><y>200</y><w>170</w><h>50</h></coordinates><panel_attributes>bg=green
+
+Almacén</panel_attributes><additional_attributes></additional_attributes></element></diagram>
